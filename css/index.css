@@ -1,0 +1,436 @@
+@font-face {
+  font-family: Mitr;
+  src: url(../font/Mitr-Medium.ttf); }
+@font-face {
+  font-family: Tofino;
+  src: url(../font/Tofino%20Medium.ttf); }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #52CCA4; }
+
+figure {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 2vw; }
+  figure img {
+    width: 100%; }
+
+h1 {
+  font-family: Mitr;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  margin-top: 0vw;
+  font-size: 19.6vw;
+  line-height: 20vw; }
+
+h2 {
+  font-family: Mitr;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  margin-top: -2vw;
+  font-size: 2.39vw; }
+
+h3 {
+  font-family: Mitr;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 2.5vw; }
+
+h4 {
+  font-family: Mitr;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 2vw; }
+
+#links {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 3vw; }
+  #links img {
+    width: 25%;
+    margin-right: 7%;
+    cursor: pointer; }
+  #links img:hover {
+    background-color: rgba(255, 255, 255, 0.43);
+    border-radius: 10vw; }
+
+p {
+  float: left;
+  position: fixed;
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  bottom: 49vw;
+  right: -51vw;
+  height: 10vw;
+  width: 100vw;
+  font-family: Mitr;
+  font-size: 2vw;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none; }
+  p a {
+    text-decoration: none;
+    color: #FF8D82;
+    cursor: pointer !important; }
+  p a:nth-of-type(2) {
+    margin-left: 10vw; }
+  p a:hover {
+    color: #BF8EDC; }
+
+#faq {
+  width: 60%;
+  margin-left: 20%;
+  height: auto;
+  margin-bottom: 5vw;
+  float: left; }
+  #faq .q {
+    width: 100%;
+    float: left;
+    margin-top: 1vw; }
+    #faq .q .title {
+      height: 6vw;
+      cursor: pointer; }
+      #faq .q .title img {
+        height: 6vw;
+        float: left; }
+      #faq .q .title h4 {
+        line-height: 6vw;
+        text-align: left;
+        width: 100%;
+        margin-left: 20%;
+        margin-top: 0; }
+    #faq .q p {
+      float: left;
+      position: relative;
+      -ms-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      bottom: auto;
+      right: auto;
+      margin-top: 1vw;
+      height: 0;
+      width: 50vw;
+      font-family: Tofino;
+      font-size: 1vw;
+      color: white;
+      font-style: normal;
+      font-weight: normal;
+      margin-left: 4vw;
+      overflow: hidden; }
+  #faq .q:first-of-type p {
+    height: 4vw; }
+  #faq .active .title {
+    cursor: default; }
+
+#why {
+  width: 60%;
+  margin-left: 20%;
+  height: auto;
+  margin-bottom: 5vw;
+  float: left; }
+  #why .q {
+    width: 100%;
+    float: left;
+    margin-top: 1vw; }
+    #why .q .title {
+      height: 6vw;
+      cursor: default; }
+      #why .q .title img {
+        height: 6vw;
+        float: left; }
+      #why .q .title h4 {
+        line-height: 6vw;
+        text-align: left;
+        width: 100%;
+        margin-left: 20%;
+        margin-top: 0; }
+    #why .q p {
+      float: left;
+      position: relative;
+      -ms-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      bottom: auto;
+      right: auto;
+      margin-top: 1vw;
+      height: 0;
+      width: 50vw;
+      font-family: Tofino;
+      font-size: 1vw;
+      color: white;
+      font-style: normal;
+      font-weight: normal;
+      margin-left: 10vw;
+      overflow: hidden; }
+  #why .active p {
+    height: auto; }
+
+footer figure {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5vw;
+  margin-bottom: 5vw; }
+  footer figure img {
+    width: 100%; }
+footer #fig_2 {
+  display: none; }
+
+@media only screen and (max-width: 801px) {
+  figure {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15vw; }
+
+  h1 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 20vw;
+    font-size: 37vw; }
+
+  h2 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 10vw;
+    font-size: 4.5vw; }
+
+  h3 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5vw;
+    font-size: 8.5vw; }
+
+  h4 {
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 5vw; }
+
+  #links {
+    width: 80%;
+    margin-left: 14%;
+    margin-top: 15vw; }
+
+  p {
+    bottom: 49vw;
+    right: -48vw;
+    font-size: 4vw; }
+
+  #faq {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 5vw; }
+    #faq .q {
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 3vw; }
+      #faq .q .title {
+        height: 15vw; }
+        #faq .q .title img {
+          height: 15vw; }
+        #faq .q .title h4 {
+          line-height: 5vw;
+          text-align: left;
+          width: 77%;
+          margin-left: 24%;
+          margin-top: 0; }
+      #faq .q p {
+        margin-top: 5vw;
+        width: 70vw;
+        font-family: Tofino;
+        font-size: 3.5vw;
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        margin-left: 7.5vw;
+        overflow: hidden; }
+    #faq .q:first-of-type p {
+      height: 35vw; }
+    #faq .active .title {
+      cursor: default; }
+
+  #why {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 5vw; }
+    #why .q {
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 3vw; }
+      #why .q .title {
+        height: 15vw; }
+        #why .q .title img {
+          height: 15vw; }
+        #why .q .title h4 {
+          line-height: 5vw;
+          text-align: left;
+          width: 77%;
+          margin-left: 24%;
+          margin-top: 0; }
+      #why .q p {
+        margin-top: 5vw;
+        width: 70vw;
+        font-family: Tofino;
+        font-size: 3.5vw;
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        margin-left: 7.5vw;
+        overflow: hidden; }
+    #why .q:first-of-type p {
+      height: 35vw; }
+    #why .active .title {
+      cursor: default; }
+
+  footer figure {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+    display: none; }
+    footer figure img {
+      width: 100%; }
+  footer #fig_2 {
+    display: block; } }
+@media only screen and (max-device-width: 801px) and (orientation: portrait) {
+  figure {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15vw; }
+
+  h1 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 20vw;
+    font-size: 37vw; }
+
+  h2 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 10vw;
+    font-size: 4.5vw; }
+
+  h3 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5vw;
+    font-size: 8.5vw; }
+
+  h4 {
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 5vw; }
+
+  #links {
+    width: 80%;
+    margin-left: 14%;
+    margin-top: 15vw; }
+
+  p {
+    bottom: 15vw;
+    right: -12vw;
+    font-size: 4vw; }
+
+  #faq {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 5vw; }
+    #faq .q {
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 3vw; }
+      #faq .q .title {
+        height: 15vw; }
+        #faq .q .title img {
+          height: 15vw; }
+        #faq .q .title h4 {
+          line-height: 5vw;
+          text-align: left;
+          width: 77%;
+          margin-left: 24%;
+          margin-top: 0; }
+      #faq .q p {
+        margin-top: 5vw;
+        width: 70vw;
+        font-family: Tofino;
+        font-size: 3.5vw;
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        margin-left: 7.5vw;
+        overflow: hidden; }
+    #faq .q:first-of-type p {
+      height: 35vw; }
+    #faq .active .title {
+      cursor: default; }
+
+  #why {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 5vw; }
+    #why .q {
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 3vw; }
+      #why .q .title {
+        height: 15vw; }
+        #why .q .title img {
+          height: 15vw; }
+        #why .q .title h4 {
+          line-height: 5vw;
+          text-align: left;
+          width: 77%;
+          margin-left: 24%;
+          margin-top: 0; }
+      #why .q p {
+        margin-top: 5vw;
+        width: 70vw;
+        font-family: Tofino;
+        font-size: 3.5vw;
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        margin-left: 7.5vw;
+        overflow: hidden; }
+    #why .q:first-of-type p {
+      height: 75vw; }
+    #why .active .title {
+      cursor: default; }
+
+  footer figure {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+    display: none; }
+    footer figure img {
+      width: 100%; }
+  footer #fig_2 {
+    display: block; } }
+
+/*# sourceMappingURL=index.css.map */
